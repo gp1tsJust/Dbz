@@ -14,12 +14,11 @@ local banana = Instance.new("TextButton")
 local iy = Instance.new("TextButton")
 local antigl = Instance.new("TextButton")
 local freeze2exp = Instance.new("TextButton")
-local halowings = Instance.new("TextButton")
 local meleespam = Instance.new("TextButton")
-local nolvl = Instance.new("TextButton")
 local noslow = Instance.new("TextButton")
 local kimovespam = Instance.new("TextButton")
 local topresp = Instance.new("TextButton")
+local pag2 = Instance.new("TextButton")
 local UnderLine = Instance.new("Frame")
 local Toggle = Instance.new("TextButton")
 local Window = Instance.new("TextLabel")
@@ -49,7 +48,7 @@ Container.Parent = UI_2
 Container.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 Container.BorderSizePixel = 0
 Container.Position = UDim2.new(0, 0, 1, 0)
-Container.Size = UDim2.new(0, 918, 0, 532)
+Container.Size = UDim2.new(0, 849, 0, 210)
 
 UIGridLayout.Parent = Container
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -108,15 +107,6 @@ freeze2exp.Text = "Freeze 2exp"
 freeze2exp.TextColor3 = Color3.fromRGB(0, 0, 0)
 freeze2exp.TextSize = 14.000
 
-halowings.Name = "halo wings"
-halowings.Parent = Container
-halowings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-halowings.Size = UDim2.new(0, 200, 0, 50)
-halowings.Font = Enum.Font.SourceSans
-halowings.Text = "Wings-Halo remove"
-halowings.TextColor3 = Color3.fromRGB(0, 0, 0)
-halowings.TextSize = 14.000
-
 meleespam.Name = "melee spam"
 meleespam.Parent = Container
 meleespam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -126,15 +116,6 @@ meleespam.Font = Enum.Font.SourceSans
 meleespam.Text = "melee spam"
 meleespam.TextColor3 = Color3.fromRGB(0, 0, 0)
 meleespam.TextSize = 14.000
-
-nolvl.Name = "no lvl"
-nolvl.Parent = Container
-nolvl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-nolvl.Size = UDim2.new(0, 200, 0, 50)
-nolvl.Font = Enum.Font.SourceSans
-nolvl.Text = "Hide level"
-nolvl.TextColor3 = Color3.fromRGB(0, 0, 0)
-nolvl.TextSize = 14.000
 
 noslow.Name = "noslow"
 noslow.Parent = Container
@@ -164,6 +145,15 @@ topresp.Font = Enum.Font.SourceSans
 topresp.Text = "Top Respawn"
 topresp.TextColor3 = Color3.fromRGB(0, 0, 0)
 topresp.TextSize = 14.000
+
+pag2.Name = "pag 2"
+pag2.Parent = Container
+pag2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pag2.Size = UDim2.new(0, 200, 0, 50)
+pag2.Font = Enum.Font.SourceSans
+pag2.Text = "-------->"
+pag2.TextColor3 = Color3.fromRGB(0, 0, 0)
+pag2.TextSize = 14.000
 
 UnderLine.Name = "UnderLine"
 UnderLine.Parent = UI_2
@@ -195,7 +185,7 @@ Window.TextSize = 17.000
 
 -- Scripts:
 
-local function NYYLXS_fake_script() -- AntiAfk.Script 
+local function HANOB_fake_script() -- AntiAfk.Script 
 	local script = Instance.new('Script', AntiAfk)
 
 	function Click(mouse)
@@ -225,8 +215,8 @@ local function NYYLXS_fake_script() -- AntiAfk.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(NYYLXS_fake_script)()
-local function XJJGO_fake_script() -- banana.Script 
+coroutine.wrap(HANOB_fake_script)()
+local function XTUHLH_fake_script() -- banana.Script 
 	local script = Instance.new('Script', banana)
 
 	function Click(mouse)
@@ -247,8 +237,8 @@ local function XJJGO_fake_script() -- banana.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(XJJGO_fake_script)()
-local function LTLJ_fake_script() -- iy.Script 
+coroutine.wrap(XTUHLH_fake_script)()
+local function UVJV_fake_script() -- iy.Script 
 	local script = Instance.new('Script', iy)
 
 	function Click(mouse)
@@ -260,8 +250,8 @@ local function LTLJ_fake_script() -- iy.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(LTLJ_fake_script)()
-local function CXTO_fake_script() -- antigl.Script 
+coroutine.wrap(UVJV_fake_script)()
+local function ATHYL_fake_script() -- antigl.Script 
 	local script = Instance.new('Script', antigl)
 
 	function Click(mouse)
@@ -283,8 +273,8 @@ local function CXTO_fake_script() -- antigl.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(CXTO_fake_script)()
-local function IRNFN_fake_script() -- freeze2exp.Script 
+coroutine.wrap(ATHYL_fake_script)()
+local function NLIMCJC_fake_script() -- freeze2exp.Script 
 	local script = Instance.new('Script', freeze2exp)
 
 	function Click(mouse)
@@ -301,79 +291,8 @@ local function IRNFN_fake_script() -- freeze2exp.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(IRNFN_fake_script)()
-local function FJIPQ_fake_script() -- halowings.Script 
-	local script = Instance.new('Script', halowings)
-
-	function Click(mouse)
-	
-		--[_Remove_Wings_&_Halo_]--
-		--[By: Flandre ||「スカーレット」#1470 & Z-Shuko#8405]--
-		--[Settings]--
-	
-		getgenv().enabler = true  --Set to true to enable, false to disable.
-	
-		--[Script Starts Here]:--
-		if (not game:IsLoaded()) then
-			game.Loaded:Wait();
-		end;
-		local lplr=game:GetService('Players').LocalPlayer;
-		local char=game:GetService('Workspace'):waitForChild('Live'):waitForChild(lplr.Name);
-		function xd(char)
-			lmfao=false;
-			if (getgenv().enabler==false) then
-				ran:Disconnect();
-			else
-				repeat wait();
-					if (char:findFirstChild('RebirthWings')) then
-						x=char.HumanoidRootPart.CFrame.X;
-						y=char.HumanoidRootPart.CFrame.Y;
-						z=char.HumanoidRootPart.CFrame.Z;
-						char.HumanoidRootPart.CFrame=CFrame.new(x,y,z) + Vector3.new(0,-200,0);
-						char.RebirthWings.Handle.AccessoryWeld:Destroy();
-						char.HumanoidRootPart.CFrame=CFrame.new(x,y,z);
-						x,y,z=nil;
-						char.RebirthWings:Destroy();
-						lmfao=true;
-					end;
-					if (char:findFirstChild('RealHalo')) then
-						x=char.HumanoidRootPart.CFrame.X;
-						y=char.HumanoidRootPart.CFrame.Y;
-						z=char.HumanoidRootPart.CFrame.Z;
-						char.HumanoidRootPart.CFrame=CFrame.new(x,y,z) + Vector3.new(0,-200,0);
-						char.RealHalo.Handle.AccessoryWeld:Destroy();
-						char.HumanoidRootPart.CFrame=CFrame.new(x,y,z);
-						x,y,z=nil;
-						char.RealHalo:Destroy();
-						lmfao=true;
-					end;
-				until lmfao==true or getgenv().enabler==false;
-			end;
-		end;
-		repeat wait()
-			for i,v in pairs(char:getChildren()) do
-				if v:IsA('Model') then
-					lmao=true;
-					xd(char);
-					break;
-				end;
-			end;
-		until lmao==true;
-		lmao=false;
-		lplr.CharacterRemoving:connect(function() lmfao=true;end);
-		lplr.CharacterAdded:connect(function(v)
-			char=v;
-			xd(char);
-			print('reconnected');
-		end);
-	
-	end
-	
-	
-	script.Parent.MouseButton1Down:connect(Click)
-end
-coroutine.wrap(FJIPQ_fake_script)()
-local function BCTS_fake_script() -- meleespam.Script 
+coroutine.wrap(NLIMCJC_fake_script)()
+local function PXEOEYQ_fake_script() -- meleespam.Script 
 	local script = Instance.new('Script', meleespam)
 
 	function Click(mouse)
@@ -398,25 +317,8 @@ local function BCTS_fake_script() -- meleespam.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(BCTS_fake_script)()
-local function EARKP_fake_script() -- nolvl.Script 
-	local script = Instance.new('Script', nolvl)
-
-	function Click(mouse)
-	
-		if not game:IsLoaded() then
-			game.Loaded:Wait()
-		end
-		wait(2)
-		game.Players.LocalPlayer.Character:FindFirstChildOfClass("Model"):Destroy()
-	
-	end
-	
-	
-	script.Parent.MouseButton1Down:connect(Click)
-end
-coroutine.wrap(EARKP_fake_script)()
-local function FHDL_fake_script() -- noslow.Script 
+coroutine.wrap(PXEOEYQ_fake_script)()
+local function JSTHA_fake_script() -- noslow.Script 
 	local script = Instance.new('Script', noslow)
 
 	function Click(mouse)
@@ -455,8 +357,8 @@ local function FHDL_fake_script() -- noslow.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(FHDL_fake_script)()
-local function CFKFN_fake_script() -- kimovespam.Script 
+coroutine.wrap(JSTHA_fake_script)()
+local function GMDWYOQ_fake_script() -- kimovespam.Script 
 	local script = Instance.new('Script', kimovespam)
 
 	function Click(mouse)
@@ -481,8 +383,8 @@ local function CFKFN_fake_script() -- kimovespam.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(CFKFN_fake_script)()
-local function JARSDKZ_fake_script() -- topresp.Script 
+coroutine.wrap(GMDWYOQ_fake_script)()
+local function RPJS_fake_script() -- topresp.Script 
 	local script = Instance.new('Script', topresp)
 
 	function Click(mouse)
@@ -503,8 +405,21 @@ local function JARSDKZ_fake_script() -- topresp.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(JARSDKZ_fake_script)()
-local function SADDDB_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(RPJS_fake_script)()
+local function DRCX_fake_script() -- pag2.Script 
+	local script = Instance.new('Script', pag2)
+
+	function Click(mouse)
+	
+		loadstring(game:HttpGet((""), true))()
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:connect(Click)
+end
+coroutine.wrap(DRCX_fake_script)()
+local function CQEVJ_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -525,8 +440,8 @@ local function SADDDB_fake_script() -- Toggle.LocalScript
 				con.Visible = false
 				end
 			else
-			back:TweenSize(UDim2.new(0, 918,0, 532), "Out", "Sine", 0.5)
-				con:TweenSize(UDim2.new(0, 918,0, 532), "Out", "Sine", 0.5)
+			back:TweenSize(UDim2.new(0, 849,0, 210), "Out", "Sine", 0.5)
+				con:TweenSize(UDim2.new(0, 849,0, 210), "Out", "Sine", 0.5)
 				wait(0.2) do
 				con.Visible = true
 				end
@@ -535,8 +450,8 @@ local function SADDDB_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(SADDDB_fake_script)()
-local function SGURHMF_fake_script() -- UI_2.LocalScript 
+coroutine.wrap(CQEVJ_fake_script)()
+local function PHETZAU_fake_script() -- UI_2.LocalScript 
 	local script = Instance.new('LocalScript', UI_2)
 
 	local dragger = {}; 
@@ -583,4 +498,4 @@ local function SGURHMF_fake_script() -- UI_2.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(SGURHMF_fake_script)()
+coroutine.wrap(PHETZAU_fake_script)()
